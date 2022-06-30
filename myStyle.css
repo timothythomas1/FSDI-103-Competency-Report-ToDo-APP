@@ -27,9 +27,11 @@ header{
 }
 
 main{
-    height: 80vh; /*viewport height*/
+    /* height: 80vh; viewport height */
     background-color: #fcec4e;
     border-radius:0px 0px 15px 15px ;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 ul li{
     display: flex;
@@ -57,7 +59,7 @@ p {
     white-space: normal;
 }
 .container{
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -75,13 +77,13 @@ p {
     align-items: center;
     /* padding: 1rem; 1rem = 10px */
     background-color: #fcec4e;
-    box-shadow: 3px 3px 3px;
+    /* box-shadow: 3px 3px 3px; */
     margin-right: 0rem;
     margin-left: 0rem;
     margin: 10px 0;
     padding: 10px;
-    border: black solid 1px;
-    border-radius: 10px;
+    /* border: black solid 1px; */
+    /* border-radius: 10px; */
 
 }
 .item-list{
